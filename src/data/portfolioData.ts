@@ -95,7 +95,7 @@ export const siteConfig = {
      * Kept empty by default so no username is fabricated.
      * The UI displays a visible GitHub link that routes to this URL when set.
      */
-    github: '',
+    github: 'https://github.com/Shah-Saud',
   },
   resume: {
     filePath: 'https://drive.google.com/file/d/19oIZY1Gm3fXUhW2yM8ZS00QHb5mBVK_C/view?usp=sharing',
@@ -105,11 +105,7 @@ export const siteConfig = {
     title: 'Shah Saud | Senior Android Engineer',
     description:
       'Shah Saud is a Senior Android Engineer with 5+ years of experience building production Android applications with Kotlin, Jetpack Compose, WebRTC, modern architecture and AI-powered products.',
-    /**
-     * Set your final GitHub Pages URL here once deployed
-     * (e.g., 'https://username.github.io/repository/')
-     */
-    canonicalUrl: '',
+    canonicalUrl: 'https://shah-saud.github.io/MyProtfolio/',
   },
 };
 
