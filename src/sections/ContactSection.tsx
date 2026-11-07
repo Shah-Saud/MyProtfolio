@@ -111,7 +111,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3.5 pt-1">
                 <a
                   href={resumeHref}
-                  download={siteConfig.resume.downloadFilename}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={onResumeClick}
                   className="inline-flex items-center gap-2 px-6 py-3.5 rounded-lg text-sm sm:text-base font-bold text-white bg-[#001C55] hover:bg-[#0E6BA8] transition-colors shadow-md"
                 >

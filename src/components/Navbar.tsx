@@ -50,7 +50,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onResumeClick }) => {
             ))}
             <a
               href={resumeHref}
-              download={siteConfig.resume.downloadFilename}
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={onResumeClick}
               className="ml-2 inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-bold text-white bg-[#001C55] hover:bg-[#0E6BA8] transition-colors shadow-sm"
             >
@@ -87,7 +88,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onResumeClick }) => {
             <div className="pt-2 px-2">
               <a
                 href={resumeHref}
-                download={siteConfig.resume.downloadFilename}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={(e) => {
                   setMobileMenuOpen(false);
                   onResumeClick(e);

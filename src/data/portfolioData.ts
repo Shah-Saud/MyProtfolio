@@ -98,11 +98,7 @@ export const siteConfig = {
     github: '',
   },
   resume: {
-    /**
-     * Place your real PDF at `public/assets/Shah-Saud-Resume.pdf`
-     * or update this path to match your filename.
-     */
-    filePath: '/assets/Shah-Saud-Resume.pdf',
+    filePath: 'https://drive.google.com/file/d/19oIZY1Gm3fXUhW2yM8ZS00QHb5mBVK_C/view?usp=sharing',
     downloadFilename: 'Shah-Saud-Senior-Android-Engineer-Resume.pdf',
   },
   seo: {

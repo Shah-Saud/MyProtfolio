@@ -109,7 +109,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="flex flex-wrap items-center gap-4 pt-2">
               <a
                 href={resumeHref}
-                download={siteConfig.resume.downloadFilename}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={onResumeClick}
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-base font-bold text-white bg-[#001C55] hover:bg-[#0E6BA8] transition-all shadow-md"
               >
